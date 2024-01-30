@@ -18,6 +18,11 @@ body {
 }
 
 /* BARRA DECORATIVA */
+.decoration-bar {
+    width: 100%;
+    min-height: 2.5rem;
+    background-color: var(--color-secondary);
+}
 
 
 /* ESTRUCTURA Y LAYOUT */
