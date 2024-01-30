@@ -46,6 +46,13 @@ body {
 /* ESTILOS HEADER */
 .layout__header {
     grid-area: header;
+    width: 100%;
+    min-width: 100%;
+    padding: 2rem 0;
+}
+
+.header__img {
+    width: 17rem;
 }
 
 /* ESTILOS NAVEGACION NAV */
