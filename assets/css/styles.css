@@ -24,5 +24,66 @@ body {
     background-color: var(--color-secondary);
 }
 
-
 /* ESTRUCTURA Y LAYOUT */
+.layout {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "marquee marquee"
+        "slider slider"
+        "high high"
+        "video video"
+        "carousel carousel"
+        "main aside"
+    ;
+    grid-template-columns: 70% 30%;
+    width: 55vw;
+    min-width: 100rem;
+    margin: 0 auto;
+}
+
+/* ESTILOS HEADER */
+.layout__header {
+    grid-area: header;
+}
+
+/* ESTILOS NAVEGACION NAV */
+.layout__nav {
+    grid-area: nav;
+}
+
+/* ESTILOS MARQUESINA - MARQUEE */
+.layout__marquee {
+    grid-area: marquee;
+}
+
+/* ESTILOS SLIDER */
+.layout__slider {
+    grid-area: slider;
+}
+
+/* ESTILOS MEJORES MOMENTOS - HIGH */
+.layout__highlights {
+    grid-area: high;
+}
+
+/* ESTILOS VIDEOS */
+.layout__videos {
+    grid-area: video;
+}
+
+/* ESTILOS CAROUSEL */
+.layout__carousel-games {
+    grid-area: carousel;
+}
+
+/* ESTILOS CONTENIDO PRINCIPAL - MAIN */
+.layout__main {
+    grid-area: main;
+}
+
+/* ESTILOS BARRA LATERAL - ASIDE */
+.layout__aside {
+    grid-area: aside;
+}
