@@ -1640,8 +1640,8 @@
                         </div>
 
                         <div class="form__container-remember">
-                            <label for="remember" class="form__label">Recuerdame</label>
                             <input type="checkbox" name="remember" id="remember" class="form__input" />
+                            <label for="remember" class="form__label">Recuerdame</label>                            
                         </div>
 
                         <input type="submit" class="form__submit" value="Iniciar sesión"/>
@@ -1667,7 +1667,7 @@
                         </a>
                     </li>
 
-                    <li class="social__item social__item--blue">
+                    <li class="social__item social__item--dark-blue">
                         <a href="#" class="social__link">
                             <div class="social__icon">
                                 <i class="fa-brands fa-facebook-f"></i>
@@ -1680,7 +1680,7 @@
                         </a>
                     </li>
 
-                    <li class="social__item social__item--blue">
+                    <li class="social__item social__item--red">
                         <a href="#" class="social__link">
                             <div class="social__icon">
                                 <i class="fa-brands fa-youtube"></i>
@@ -1693,7 +1693,7 @@
                         </a>
                     </li>
 
-                    <li class="social__item social__item--blue">
+                    <li class="social__item social__item--pink">
                         <a href="#" class="social__link">
                             <div class="social__icon">
                                 <i class="fa-brands fa-instagram"></i>
@@ -1706,7 +1706,7 @@
                         </a>
                     </li>
 
-                    <li class="social__item social__item--blue">
+                    <li class="social__item social__item--yellow">
                         <a href="#" class="social__link">
                             <div class="social__icon">
                                 <i class="fa-brands fa-linkedin-in"></i>
@@ -1735,20 +1735,20 @@
             <section class="aside__recent">
                 <header class="recent__subheader">
                     <ul class="recent__list-header">
-                        <li class="list-header__item list-header__item--active">
-                            <h3 class="list-header__title">
+                        <li class="list-header__item ">
+                            <h3 class="list-header__title list-header__item--active">
                                 <a href="#" class="list-header__link-title">Reciente</a>
                             </h3>
                         </li>
 
                         <li class="list-header__item">
-                            <h3 class="list-header__title">
+                            <h3 class="list-header__title list-header--small">
                                 <a href="#" class="list-header__link-title">Popular</a>
                             </h3>
                         </li>
 
-                        <li class="list-header__item">
-                            <h3 class="list-header__title">
+                        <li class="list-header__item ">
+                            <h3 class="list-header__title list-header--small">
                                 <a href="#" class="list-header__link-title">Comentarios</a>
                             </h3>
                         </li>
@@ -1883,7 +1883,39 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>                        
+                        </li>  
+                        
+                        <li class="recent__item">
+                            <div class="recent__container-img">
+                                <a href="#" class="recent__link-img">
+                                    <img src="./assets/img/recent-1.jpg" class="recent__img">
+                                </a>
+                            </div>
+
+                            <div class="recent__detail">
+                                <h4 class="recent__title">
+                                    <a href="#" class="recent__link-title">
+                                        Mejor juego del año
+                                    </a>
+                                </h4>
+
+                                <div class="recent__container-info">
+                                    <a href="#" class="recent__author">Victor</a>
+
+                                    <div class="recent__meta-info">
+                                        <article class="recent__views">
+                                            <i class="fa-solid fa-eye"></i>
+                                            <span class="recent__number-views">11.210</span>
+                                        </article>
+
+                                        <article class="recent__comments">
+                                            <i class="fa-solid fa-comments"></i>
+                                            <span class="recent__number-comments">10</span>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -1900,7 +1932,7 @@
                         </li>
                         <li class="last-reviews__item">
                             <h3 class="last-reviews__title">
-                                <a href="#" class="last-reviews__link-title">
+                                <a href="#" class="last-reviews__link-title last-reviews__link-title--small">
                                     Mejores reviews
                                 </a>
                             </h3>
