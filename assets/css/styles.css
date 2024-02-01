@@ -133,7 +133,8 @@ body {
     opacity: 1;
 }
 
-.navbar__btn--search {
+.navbar__btn--search,
+.navbar__mobile-btn {
     background-color: var(--color-secondary);
     padding: 0.8rem 1.3rem;
     height: 5rem;
@@ -141,7 +142,8 @@ body {
     align-items: center;    
 }
 
-.navbar__btn--search .fa-solid {
+.navbar__btn--search .fa-solid,
+.navbar__mobile-btn .fa-solid {
     cursor: pointer;
     color: var(--color-principal);
     font-size: 2.7rem;
@@ -690,7 +692,7 @@ body {
 
 
 /* ESTILOS SUBENCABEZADOS */
-.__subheader,
+.news__subheader,
 .games__subheader,
 .login__subheader,
 .posts__subheader,
@@ -706,7 +708,7 @@ body {
 }
 
 .subheader__title,
-.__title,
+.news__title,
 .list-header__title,
 .last-reviews__link-title {
     display: inline;
